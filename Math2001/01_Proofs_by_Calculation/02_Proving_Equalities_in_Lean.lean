@@ -34,7 +34,7 @@ r = -7 := by
   done
 
 -- Example 1.2.4.
--- Exercice : testing out if my updates work- replacing french with anglais.
+-- Exercise : replace "sorry" with the complete proof
 example {a b c d e f : ℤ} (h1 : a * d = b * c) (h2 : c * f = d * e) :
     d * (a * f - b * e) = 0 := by
   sorry
